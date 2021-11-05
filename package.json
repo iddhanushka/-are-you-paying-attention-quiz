@@ -1,0 +1,28 @@
+{
+  "name": "are-you-paying-attention",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "build": "wp-scripts build src/index.js src/frontend.js",
+    "start": "wp-scripts start src/index.js src/frontend.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iddhanushka/are-you-paying-attention_plugin-fu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iddhanushka/are-you-paying-attention_plugin-fu/issues"
+  },
+  "homepage": "https://github.com/iddhanushka/are-you-paying-attention_plugin-fu#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^18.0.1"
+  },
+  "dependencies": {
+    "react-color": "^2.19.3"
+  }
+}
